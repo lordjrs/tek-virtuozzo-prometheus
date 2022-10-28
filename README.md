@@ -12,14 +12,13 @@ To Do:
 - Realizar las consultas a Prometheus y su posterior almacenamiento
 - Interacción con la tabla de procesos para almacenar tiempos Epoch, entre otros.
 
-Archivos de variable de entorno:
+Variables de entorno:
 ```
 VIRTADDRESS=""
 VIRTUSER=""
 VIRTPASS=""
 VIRTDOMAIN=""
 VIRTPROJNAME=""
-
 MYSQLHOST=""
 MYSQLUSER=""
 MYSQLPASS=""
