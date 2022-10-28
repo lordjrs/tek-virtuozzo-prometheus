@@ -1,0 +1,28 @@
+Request URL: CPU Time
+https://tek.zapto.org:8888/prometheus/api/v1/query_range?query=sum(rate(libvirt_domain_info_cpu_time_seconds_total%7Bdomain_uuid%3D%220fc7023b-cf27-4481-97d3-bd52ee786854%22%7D%5B5m%5D))%20%2F%20sum(libvirt_domain_info_virtual_cpus%7Bdomain_uuid%3D%220fc7023b-cf27-4481-97d3-bd52ee786854%22%7D)%20*%20100&start=1666680907&end=1666724107&step=144&all_projects=true
+
+Request URL: Storage Read
+https://tek.zapto.org:8888/prometheus/api/v1/query_range?query=sum(rate(libvirt_domain_block_stats_read_bytes_total%7Bdomain_uuid%3D%220fc7023b-cf27-4481-97d3-bd52ee786854%22%7D%5B5m%5D))&start=1666680907&end=1666724107&step=144&all_projects=true
+
+Request URL: Read Latency
+https://tek.zapto.org:8888/prometheus/api/v1/query_range?query=sum(rate(libvirt_domain_block_stats_read_latency_ms_sum%7Bdomain_uuid%3D%220fc7023b-cf27-4481-97d3-bd52ee786854%22%7D%5B5m%5D))%2Fsum(rate(libvirt_domain_block_stats_read_latency_ms_count%7Bdomain_uuid%3D%220fc7023b-cf27-4481-97d3-bd52ee786854%22%7D%5B5m%5D))%20%2F%201000&start=1666680907&end=1666724107&step=144&all_projects=true
+
+
+https://tek.zapto.org:8888/prometheus/api/v1/query_range?query=sum(rate(libvirt_domain_block_stats_read_requests_total%7Bdomain_uuid%3D%220fc7023b-cf27-4481-97d3-bd52ee786854%22%7D%5B5m%5D))&start=1666680907&end=1666724107&step=144&all_projects=true
+
+Request URL: Storage Write
+https://tek.zapto.org:8888/prometheus/api/v1/query_range?query=sum(rate(libvirt_domain_block_stats_write_bytes_total%7Bdomain_uuid%3D%220fc7023b-cf27-4481-97d3-bd52ee786854%22%7D%5B5m%5D))&start=1666680907&end=1666724107&step=144&all_projects=true
+
+Request URL: Write Latency
+https://tek.zapto.org:8888/prometheus/api/v1/query_range?query=sum(rate(libvirt_domain_block_stats_write_latency_ms_sum%7Bdomain_uuid%3D%220fc7023b-cf27-4481-97d3-bd52ee786854%22%7D%5B5m%5D))%2Fsum(rate(libvirt_domain_block_stats_write_latency_ms_count%7Bdomain_uuid%3D%220fc7023b-cf27-4481-97d3-bd52ee786854%22%7D%5B5m%5D))%20%2F%201000&start=1666680907&end=1666724107&step=144&all_projects=true
+
+
+Request URL: https://tek.zapto.org:8888/prometheus/api/v1/query_range?query=sum(rate(libvirt_domain_block_stats_write_requests_total%7Bdomain_uuid%3D%220fc7023b-cf27-4481-97d3-bd52ee786854%22%7D%5B5m%5D))&start=1666680907&end=1666724107&step=144&all_projects=true
+
+
+
+Request URL: Network Receive Bytes Total
+https://tek.zapto.org:8888/prometheus/api/v1/query_range?query=sum(rate(libvirt_domain_interface_stats_receive_bytes_total%7Bdomain_uuid%3D%220fc7023b-cf27-4481-97d3-bd52ee786854%22%7D%5B5m%5D))&start=1666680907&end=1666724107&step=144&all_projects=true
+
+Request URL: Network Transmit Bytes TOtal
+https://tek.zapto.org:8888/prometheus/api/v1/query_range?query=sum(rate(libvirt_domain_interface_stats_transmit_bytes_total%7Bdomain_uuid%3D%220fc7023b-cf27-4481-97d3-bd52ee786854%22%7D%5B5m%5D))&start=1666680907&end=1666724107&step=144&all_projects=true
